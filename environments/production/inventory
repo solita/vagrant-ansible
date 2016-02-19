@@ -1,0 +1,4 @@
+10.1.2.3 ansible_ssh_user=root
+[jenkins]
+10.1.2.3
+#job_repository = git+ssh://....

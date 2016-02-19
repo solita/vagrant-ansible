@@ -1,10 +1,9 @@
 ---
 - hosts:
-    - vagrant
-    - pullakahvit.example.com
+    - jenkins
   vars:
     - solita_jenkins_security_realm: jenkins
     - solita_jenkins_users:
-      - mrnobody
+      - petrisi
   roles:
       - solita.jenkins

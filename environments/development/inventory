@@ -1,0 +1,5 @@
+192.168.50.77
+[jenkins]
+192.168.50.77 ansible_ssh_user=ansible
+#vagrant ansible_connection=local
+#job_directory = ../
