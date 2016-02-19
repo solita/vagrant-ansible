@@ -2,7 +2,7 @@ Requirements
 ------------
 
 Local installation of Vagrant is required unless your environment supports
-Ansible natively. See
+Ansible natively. See `Setting up the Virtual Machine`_.
 
 
 Preparations
@@ -57,3 +57,4 @@ under the jenkins role in the inventory file.
     ansible-playbook -i environment/production/inventory jenkins.yml
 
 .. _ask become pass: http://docs.ansible.com/ansible/become.html
+.. _Setting up the Virtual Machine: http://solita-cd.readthedocs.org/en/latest/jenkins_ansible_vm.html
