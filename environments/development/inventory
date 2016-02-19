@@ -1,1 +1,3 @@
+[jenkins]
 vagrant ansible_connection=local
+job_directory = ../

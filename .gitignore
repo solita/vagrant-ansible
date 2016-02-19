@@ -1,10 +1,7 @@
 .vagrant
 *.swp
 *.swo
-jenkins.yml
 roles/*
-.ssh
-environments/production/inventory
-environments/production/solita_jenkins_default_password
+environments/*/solita_jenkins_default_password
 
 .bundle/config
